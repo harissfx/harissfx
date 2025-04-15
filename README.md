@@ -147,10 +147,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[username]&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=0D1117&fire=378DE5&ring=39C2F3&currStreakLabel=39C2F3" alt="GitHub Streak Stats" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=[username]&theme=tokyonight" width="49%" alt="Profile Details"/>
-</div>
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=[username]&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&bg_color=0D1117" alt="GitHub Stats" width="49%" />
@@ -226,10 +223,6 @@
 
 ## <div align="center">🔄 MY CONTRIBUTION ACTIVITY 🔄</div>
 
-<div align="center">
-  <!-- This is a custom animated contribution graph -->
-  <img src="https://github.com/[username]/[username]/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%"/>
-</div>
 
 <div align="center">
   <h3>📅 Recent GitHub Activity</h3>
