@@ -2,12 +2,14 @@ name: Auto Commit Every Hour
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Jalan tiap 1 jam
+    - cron: '0 * * * *'  
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v2
@@ -24,4 +26,3 @@ jobs:
           message: "Auto commit from workflow"
           author_name: "GitHub Actions"
           author_email: "actions@github.com"
-
