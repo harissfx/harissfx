@@ -1,0 +1,24 @@
+name: Auto Commit Every Hour
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate random file
+        run: |
+          mkdir -p files
+          echo "🟩 Auto commit at $(date)" > ./files/$(date +%s).emojic
+
+      - name: Commit dan Push
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: './files/'
+          message: "Hourly auto commit at $(date +%s)"
