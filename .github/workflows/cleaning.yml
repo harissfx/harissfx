@@ -1,0 +1,23 @@
+name: Cleaning Files
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Bersihkan folder files
+        run: |
+          rm -rf files/*
+
+      - name: Commit perubahan
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: './files/'
+          message: "Cleaning files $(date +%s)"
