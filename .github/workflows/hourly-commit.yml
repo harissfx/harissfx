@@ -2,7 +2,7 @@ name: Auto Commit Every Hour
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *'  # Jalan tiap 1 jam
   workflow_dispatch:
 
 jobs:
@@ -21,4 +21,4 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           add: './files/'
-          message: "Hourly auto commit at $(date +%s)"
+          message: "Auto commit from workflow"
