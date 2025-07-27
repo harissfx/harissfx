@@ -2,9 +2,9 @@ name: Nuyul Contributions
 
 on:
   schedule:
-    # Jalankan setiap 1 jam
+    # Setiap 1 jam sekali
     - cron: "0 * * * *"
-    # Jalankan pembersihan sekali sehari (jam 00:00 UTC)
+    # Pembersihan sekali sehari, jam 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -22,18 +22,19 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: Buat dummy file
-        if: github.event.schedule == '0 * * * *'
+      - name: Tambahkan file dummy setiap 1 jam
+        if: ${{ github.event.schedule == '0 * * * *' }}
         run: |
           mkdir -p files
           echo "$(date)" > "files/dummy-$(date +%s).txt"
           git add files/
-          git commit -m "update: $(date)" || echo "No changes to commit"
+          git commit -m "update dummy file: $(date)" || echo "No changes to commit"
           git push
 
-      - name: Bersihkan file sampah di folder files
-        if: github.event.schedule == '0 0 * * *'
+      - name: Bersihkan file dummy setiap hari jam 00:00 UTC
+        if: ${{ github.event.schedule == '0 0 * * *' }}
         run: |
-          git rm -rf files/*
-          git commit -m "auto-cleanup: $(date)" || echo "Nothing to clean"
+          rm -rf files/*
+          git add -u
+          git commit -m "auto-cleanup files: $(date)" || echo "Nothing to clean"
           git push
