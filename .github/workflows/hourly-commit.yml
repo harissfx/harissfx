@@ -2,11 +2,15 @@ name: Nuyul Contributions
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # Setiap 1 jam sekali
+    - cron: "0 * * * *"
+    # Setiap hari jam 00:00 untuk pembersihan
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   auto-commit:
+    if: github.event.schedule == '0 * * * *'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -16,9 +20,27 @@ jobs:
 
       - name: Buat dummy file
         run: |
-          date > dummy.txt
+          echo "$(date)" >> dummy.txt
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add dummy.txt
           git commit -m "update: $(date)" || echo "No changes to commit"
+          git push
+
+  clean-dummy:
+    if: github.event.schedule == '0 0 * * *'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Hapus dummy.txt
+        run: |
+          rm -f dummy.txt
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add -u
+          git commit -m "auto-clean: removed dummy.txt" || echo "No changes to commit"
           git push
