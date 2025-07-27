@@ -2,15 +2,14 @@ name: Nuyul Contributions
 
 on:
   schedule:
-    # Setiap 1 jam sekali
+    # Jalankan setiap 1 jam
     - cron: "0 * * * *"
-    # Setiap hari jam 00:00 untuk pembersihan
+    # Jalankan pembersihan sekali sehari (jam 00:00 UTC)
     - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   auto-commit:
-    if: github.event.schedule == '0 * * * *'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,29 +17,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Buat dummy file
+      - name: Setup Git config
         run: |
-          echo "$(date)" >> dummy.txt
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add dummy.txt
+
+      - name: Buat dummy file
+        if: github.event.schedule == '0 * * * *'
+        run: |
+          mkdir -p files
+          echo "$(date)" > "files/dummy-$(date +%s).txt"
+          git add files/
           git commit -m "update: $(date)" || echo "No changes to commit"
           git push
 
-  clean-dummy:
-    if: github.event.schedule == '0 0 * * *'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Hapus dummy.txt
+      - name: Bersihkan file sampah di folder files
+        if: github.event.schedule == '0 0 * * *'
         run: |
-          rm -f dummy.txt
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git add -u
-          git commit -m "auto-clean: removed dummy.txt" || echo "No changes to commit"
+          git rm -rf files/*
+          git commit -m "auto-cleanup: $(date)" || echo "Nothing to clean"
           git push
