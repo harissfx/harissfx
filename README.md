@@ -38,10 +38,10 @@ I specialize in embedded systems development with a focus on IoT solutions and m
 
 ## 📫 Let's Connect
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/haris_sfx77)
+
 [![Twitter/X](https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/HarisSfx)
 [![Shopee](https://img.shields.io/badge/Shopee-EE4D2D?style=for-the-badge&logo=shopee&logoColor=white)](https://shopee.co.id/hr_project_)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@haris_r2)
+
 
 ## 🎯 Currently Learning/Exploring
 
