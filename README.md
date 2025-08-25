@@ -1,4 +1,13 @@
-# 👋 Hello, I'm Haris | Embedded Systems Engineer
+<div align="center">
+  
+  # Haris Sfx
+  
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=36BCF7&center=true&vCenter=true&width=600&lines=Software+Development+Engineer;Full+Stack+Developer;Bot+Developer;AI+Engineer;Building+IoT+Solutions+with+Passion;Connecting+Hardware+%26+Software;Code.+Create.+Innovate.)](https://git.io/typing-svg)
+
+  
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+</div>
 
 [![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![ESP](https://img.shields.io/badge/-ESP32-E7352C?style=flat&logo=espressif&logoColor=white)](https://www.espressif.com/)
@@ -35,6 +44,8 @@ I specialize in embedded systems development with a focus on IoT solutions and m
 [![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=harissfx&show_icons=true&theme=radical)](https://github.com/harissfx)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harissfx&layout=compact&theme=radical)](https://github.com/harissfx)
+
+
 
 ## 📫 Let's Connect
 
