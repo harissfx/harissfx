@@ -12,11 +12,12 @@
 ### 👨‍💻 About Me
 I specialize in **embedded systems** and **IoT development**, combining **hardware** and **software** to build smart, connected solutions.  
 
+- 👨‍💻 I am Not a Programmer  
 - 🌱 Currently learning **JavaScript**  
+- 📍 I’m from **Indonesia** 🇮🇩  
 - 📧 Business Email: **harissfx@gmail.com**  
 - 💰 Support Me: [Saweria](https://saweria.co/HarisSfx)  
 
----
 
 ## 🛠 Tech Stack  
 
