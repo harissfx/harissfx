@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Haris Sfx  
+# Haris Sfx  
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=36BCF7&center=true&vCenter=true&width=600&lines=Software+Development+Engineer;Full+Stack+Developer;Bot+Developer;AI+Engineer;IoT+%26+Embedded+Systems+Enthusiast;Connecting+Hardware+%26+Software;Code.+Create.+Innovate.)](https://git.io/typing-svg)
 
