@@ -14,7 +14,7 @@ I specialize in **embedded systems** and **IoT development**, combining **hardwa
 
 - 🌱 Currently learning **JavaScript**  
 - 📧 Business Email: **harissfx@gmail.com**  
-- 💰 Support Me: [Saweria](https://saweria.co/Haris66)  
+- 💰 Support Me: [Saweria](https://saweria.co/HarisSfx)  
 
 ---
 
@@ -53,9 +53,9 @@ I work with both **hardware** and **software** to create reliable IoT solutions.
 ## 📊 GitHub Stats  
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nazedev&show_icons=true&theme=chartreuse-dark" height="150"/>
-  <img src="https://streak-stats.demolab.com/?user=nasedev&theme=chartreuse-dark" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazedev&theme=chartreuse-dark&layout=compact" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=harissfx&show_icons=true&theme=chartreuse-dark" height="150"/>
+  <img src="https://streak-stats.demolab.com/?user=harissfx&theme=chartreuse-dark" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harissfx&theme=chartreuse-dark&layout=compact" height="150"/>
 </div>
 
 ---
