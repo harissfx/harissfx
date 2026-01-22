@@ -2,7 +2,7 @@ name: Mboh Wes
 
 on:
   schedule:
-    - cron: "*/30 * * * *"    # Setiap 30 menit
+    - cron: "*/25 * * * *"    # Setiap 30 menit
     - cron: "0 0 * * *"       # Setiap hari jam 00:00
   workflow_dispatch:
 
