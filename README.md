@@ -1,5 +1,8 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:0D1117&height=200&section=header&text=Haris Sfx &fontSize=70&fontColor=58A6FF&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20%7C%20Hardware%20Engineer%20%7C%20IoT%20development&descAlignY=60&descColor=79C0FF" /> 
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Haris%20Syc&fontSize=90&fontAlignY=35&animation=fadeIn&fontColor=ffffff" />
+</div>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&duration=5000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Software+Development+Engineer;Full+Stack+Developer;Bot+Developer;AI+Engineer;IoT+%26+Embedded+Systems+Enthusiast;Code.+Create.+Innovate.)](https://git.io/typing-svg)
 
