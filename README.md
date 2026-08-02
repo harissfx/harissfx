@@ -1,7 +1,7 @@
 <div align="center">
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Haris%20Syc&fontSize=90&fontAlignY=35&animation=fadeIn&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Haris%20Syc&fontSize=55&fontAlignY=33&animation=fadeIn&fontColor=8AB4F8&desc=Full%20Stack%20Developer%20Engineer&descAlignY=52&descSize=16&descColor=A0A0B8" />
 </div>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&duration=5000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Software+Development+Engineer;Full+Stack+Developer;Bot+Developer;AI+Engineer;IoT+%26+Embedded+Systems+Enthusiast;Code.+Create.+Innovate.)](https://git.io/typing-svg)
