@@ -68,7 +68,7 @@ I specialize in **embedded systems** and **IoT development**, combining **hardwa
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=harissfx&theme=react" width="100%" alt="Profile Summary" />
 </a>
 <br/>
-<a href="https://github.com/harissfxde">
+<a href="https://github.com/harissfx">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=harissfx&theme=react" width="32%" />
 </a>
 <a href="https://github.com/harissfx">
