@@ -1,10 +1,10 @@
 <div align="center">
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Haris%20Syc&fontSize=55&fontAlignY=33&animation=fadeIn&fontColor=8AB4F8&desc=Full%20Stack%20Developer%20Engineer&descAlignY=52&descSize=16&descColor=A0A0B8" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Haris%20Syc&fontSize=55&fontAlignY=33&animation=fadeIn&fontColor=8AB4F8&desc=Embedded%20and%20IoT%20Developer%20-%20Bot%20Maker&descAlignY=52&descSize=16&descColor=A0A0B8" />
 </div>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&duration=5000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Software+Development+Engineer;Full+Stack+Developer;Bot+Developer;AI+Engineer;IoT+%26+Embedded+Systems+Enthusiast;Code.+Create.+Innovate.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&duration=5000&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Embedded+%26+IoT+Developer;ESP32+%26+Arduino+Projects;WhatsApp+%26+Telegram+Bot+Developer;Learning+Node.js+%26+Payment+Gateway;Self-taught+Maker,+Still+Learning)](https://git.io/typing-svg)
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 </div>
@@ -12,8 +12,8 @@
 ### 👨‍💻 About Me
 I specialize in **embedded systems** and **IoT development**, combining **hardware** and **software** to build smart, connected solutions.  
 
-- 👨‍💻 I am Not a Programmer  
-- 🌱 Currently learning **JavaScript**  
+- 🌱 Self-taught maker, still learning  
+- 📚 Currently learning **JavaScript**  
 - 📍 I'm from **Indonesia** 🇮🇩  
 - 📧 Business Email: **harissyc65@gmail.com**  
 - 💰 Support Me: [Saweria](https://saweria.co/HarisSfx)  
