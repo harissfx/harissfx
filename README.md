@@ -1,7 +1,7 @@
 <div align="center">
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Haris%20Syc&fontSize=55&fontAlignY=33&animation=fadeIn&fontColor=8AB4F8&desc=Embedded%20and%20IoT%20Developer%20-%20Bot%20Maker&descAlignY=52&descSize=16&descColor=A0A0B8" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Haris%20Sync&fontSize=55&fontAlignY=33&animation=fadeIn&fontColor=8AB4F8&desc=Embedded%20and%20IoT%20Developer%20-%20Bot%20Maker&descAlignY=52&descSize=16&descColor=A0A0B8" />
 </div>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&duration=5000&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Embedded+%26+IoT+Developer;ESP32+%26+Arduino+Projects;WhatsApp+%26+Telegram+Bot+Developer;Learning+Node.js+%26+Payment+Gateway;Self-taught+Maker,+Still+Learning)](https://git.io/typing-svg)
